@@ -29,7 +29,9 @@ const DisplayKeyboard = () => {
     const handleClear = () => {
         dispatch(clearPin());
         setShowAccessMessage(false);
+        setAccessGranted(false);
     };
+
 
     return (
         <div className="w-60">

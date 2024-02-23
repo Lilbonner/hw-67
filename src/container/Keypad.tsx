@@ -16,7 +16,7 @@ const Keypad: React.FC<KeypadProps> = ({onBtnClick, onClear, onEnter}) => {
                     {digit}
                 </button>
             ))}
-            <button className="bg-black w-15 h-12 border- border-2" onClick={onClear}>{"<"}</button>
+            <button className="bg-black w-15 h-12 border-amber-50 border-2" onClick={onClear}>{"<"}</button>
             <button className="bg-black w-15 h-12 border-amber-50 border-2" onClick={onEnter}>E</button>
         </div>
     );
